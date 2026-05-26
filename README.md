@@ -141,7 +141,7 @@ _password = "123456"
 ## 已知问题
 
 - **ChromeDriver 不支持 emoji**：发送消息请使用纯文字或 BMP 范围内字符（☀️ ✓）
-- **必须用 API name**：抖音 UI 显示昵称和 API 字段名可能不同（如"不吹就不起球"实际 API name 是"不吹哨不起床"）
+- **必须用 API name**：抖音 UI 显示昵称和 API 字段名可能不同（如 UI 显示"小明"实际 API name 是"小明同学"）
 - **Selenium Session 过期**：ChromeDriver 报 `invalid session id` 时，重新调用 `/Api/Init`
 
 ## 来源
